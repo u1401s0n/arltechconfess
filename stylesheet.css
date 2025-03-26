@@ -10,7 +10,7 @@ body {
 .screen {
     border-radius: 8vw;
     background-color: #0e0b1c;
-    width: 100%;
+    width: 95%;
     position: absolute;
     overflow: hidden;
     top: 50%;
