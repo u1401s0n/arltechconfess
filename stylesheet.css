@@ -1,15 +1,21 @@
 
-
-.text {
-    width: calc(100% - 40px);
-    padding-right: 40px;
+body {
+    background-color: #000;
+    color: #fdf8ff;
+    text-shadow: 1px 1px 1px;
+    color: #f0e9f3;
+    font-family: monospace;
 }
 
-.user-text{
-    width: calc(100% - 40px);
-    padding-bottom:30px;
-    padding-right:40px;
-  }
+.screen {
+    border-radius: 8vw;
+    background-color: #0e0b1c;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+}
 
 
 /* scanbar stuff */
@@ -30,34 +36,3 @@
     background-color: #00000002;
     animation: scan 1.5s infinite;
 }
-
-/* ...shoutout invertedfate for the blinking animation that i . stole. sorry */
-
-.blinking{
-    display:inline-block;
-    -webkit-animation: blinking-animation 0.2s infinite; /* Safari 4+ */
-    -moz-animation:    blinking-animation 0.2s infinite; /* Fx 5+ */
-    -o-animation:      blinking-animation 0.2s infinite; /* Opera 12+ */
-    animation:         blinking-animation 0.2s infinite; /* IE 10+, Fx 29+ */
-  }
-
-  @-webkit-keyframes blinking-animation {
-    0%   { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-  @-moz-keyframes blinking-animation {
-    0%   { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-  @-o-keyframes blinking-animation {
-    0%   { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-  @keyframes blinking-animation {
-    0%   { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
