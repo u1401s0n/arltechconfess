@@ -1,0 +1,63 @@
+
+
+.text {
+    width: calc(100% - 40px);
+    padding-right: 40px;
+}
+
+.user-text{
+    width: calc(100% - 40px);
+    padding-bottom:30px;
+    padding-right:40px;
+  }
+
+
+/* scanbar stuff */
+
+@keyframes scan {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+.scan {
+    height: 50px;
+    width: 200%;
+    background-color: #00000002;
+    animation: scan 1.5s infinite;
+}
+
+/* ...shoutout invertedfate for the blinking animation that i . stole. sorry */
+
+.blinking{
+    display:inline-block;
+    -webkit-animation: blinking-animation 0.2s infinite; /* Safari 4+ */
+    -moz-animation:    blinking-animation 0.2s infinite; /* Fx 5+ */
+    -o-animation:      blinking-animation 0.2s infinite; /* Opera 12+ */
+    animation:         blinking-animation 0.2s infinite; /* IE 10+, Fx 29+ */
+  }
+
+  @-webkit-keyframes blinking-animation {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @-moz-keyframes blinking-animation {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @-o-keyframes blinking-animation {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @keyframes blinking-animation {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
