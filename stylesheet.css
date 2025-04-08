@@ -1,9 +1,9 @@
 
 body {
     background-color: #000;
-    color: #fdf8ff;
+    color: #f0e4f5;
     text-shadow: 1px 1px 1px;
-    color: #f0e9f3;
+    color: #e5ceef;
     font-family: monospace;
 }
 
@@ -11,7 +11,6 @@ body {
     border-radius: 8vw;
     background-color: #0e0b1c;
     width: 80%;
-    position: absolute;
     overflow: hidden;
     margin: auto;
 }
